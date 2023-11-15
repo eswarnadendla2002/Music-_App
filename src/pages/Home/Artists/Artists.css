@@ -51,7 +51,7 @@ h2 {
 .cards::-webkit-scrollbar {
     display: none;
 }
-.card {
+.card-artist{
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -88,25 +88,25 @@ text-align: center;
     font-family: 'Poppins',sans-serif;
     font-weight: 500;
 }
-.card:hover {
+.card-artist:hover {
     color: var(--white);
     background: var(--orange);
 }
 
-.card .card-title {
+.card-artist .card-title {
     font-size: 20px;
 }
 
-.card .card-content {
+.card-artist .card-content {
     margin: 20px 0;
     max-width: 85%;
 }
 
-.card .card-link-wrapper {
+.card-artist .card-link-wrapper {
     margin-top: auto;
 }
 
-.card .card-link {
+.card-artist .card-link {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -116,7 +116,7 @@ text-align: center;
     transition: background 0.2s;
 }
 
-.card:hover .card-link {
+.card-artist:hover .card-link {
     background: var(--darkorange);
 }
 

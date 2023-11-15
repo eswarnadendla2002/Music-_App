@@ -3,6 +3,12 @@ import Home from "../pages/Home/home";
 import Favourites from "../pages/HomeNext/Favourites";
 import HomeN from "../pages/HomeNext/HomeN";
 import Music from "../pages/HomeNext/Music";
+import Profile from "../pages/Home/Profile/Profile";
+import Search from "../pages/Home/Search/Search";
+import AllSe from "../pages/Home/Search/SearchForArtist/AllSe";
+import AllSearch from "../pages/Home/Search/SearchForArtist/AllSearch";
+import ArtSe from "../pages/Home/Search/SearchForArtist/ArtSe";
+import ArtSearch from "../pages/Home/Search/SearchForArtist/ArtSearch";
 
 import AlbumSong from "../pages/HomeNext/album_song";
 import Login from "../pages/Login/Login";
@@ -32,5 +38,29 @@ export const routes = [
   {
     path: "/new/favourite/:id",
     component: Favourites,
+  },
+  {
+    path: "/search",
+    component: Search,
+  },
+  {
+    path: "/artsearch",
+    component: ArtSearch,
+  },
+  {
+    path: "/artse",
+    component: ArtSe,
+  },
+  {
+    path: "/allse",
+    component: AllSe,
+  },
+  {
+    path: "/allsearch",
+    component: AllSearch,
+  },
+  {
+    path: "/profile",
+    component: Profile,
   },
 ];

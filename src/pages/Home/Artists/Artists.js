@@ -52,7 +52,7 @@ const Artists = () => {
                 return (
                   <>
                     <div>
-                      <li class="card radius">
+                      <li class="card-artist radius">
                         <img src={items.images[0].url} alt=""></img>
                       </li>
                       <h1 className="artist-name">{items.name}</h1>
